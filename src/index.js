@@ -9,7 +9,7 @@ const images = [
     "/2iGN0aKHJYD0xQydlfuCUAcgNbO.jpg",
     "/rjBwhsOzHKUw2NIOrE7aMqjfe6s.jpg",
   ];
-
+  
 const sample = {
   adult: false,
   backdrop_path: "/5Iw7zQTHVRBOYpA0V6z0yypOPZh.jpg",
@@ -95,7 +95,7 @@ const movies = [sample, sample, sample, sample, sample, sample, sample];
 
 const App = () => {
   return (
-       <MovieDetailsPage movie={sample} images={images} />
+      <HomePage movies={movies} />
   );
 };
 
